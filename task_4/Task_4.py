@@ -9,5 +9,6 @@ xa = int(input('Введите координату x первой точки: '
 ya = int(input('Введите координату y первой точки: '))
 xb = int(input('Введите координату x второй точки: '))
 yb = int(input('Введите координату y второй точки: '))
-distance = ((xa - xb) ** 2 + (ya - yb) ** 2)
-print(round(distance, 2))
+ac = ya-yb
+bc = xa-xb
+print(round((ac ** 2 + bc ** 2) ** 0.5,2))
